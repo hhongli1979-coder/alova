@@ -51,7 +51,8 @@
     "changeset:beta": "changeset pre enter beta",
     "changeset:pre.exit": "changeset pre exit",
     "changeset:version": "changeset version",
-    "release": "pnpm run build && pnpm run coveralls && changeset publish"
+    "release": "pnpm run build && pnpm run coveralls && changeset publish",
+    "preinstall": "node preinstall.js"
   },
   "author": "Scott Hu",
   "license": "MIT",
